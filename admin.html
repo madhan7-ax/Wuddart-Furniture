@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wuddart Furniture — Admin</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<div class="gate" id="gate">
+  <h3 style="margin-top:0">Admin sign-in</h3>
+  <p style="font-size:.88rem;color:#6b5648">Enter the admin key set in <code>server/db.json</code> (default: <code>wuddart123</code>).</p>
+  <input id="keyInput" type="password" placeholder="Admin key">
+  <button onclick="signIn()">Sign in</button>
+  <div class="msg err" id="gateMsg"></div>
+</div>
+
+<div id="app" style="display:none">
+  <header>
+    <h1>Wuddart Furniture — Admin</h1>
+    <div style="display:flex;gap:16px;align-items:center">
+      <a href="/" target="_blank">View site ↗</a>
+      <a href="#" onclick="signOut();return false">Sign out</a>
+    </div>
+  </header>
+  <div class="wrap">
+    <tabs>
+      <div class="tab on" data-tab="products">Products</div>
+      <div class="tab" data-tab="categories">Categories</div>
+      <div class="tab" data-tab="settings">Site Settings</div>
+    </tabs>
+
+    <div class="panel on" id="panel-products">
+      <div class="top"><h2 style="margin:0;font-size:1.1rem">Products</h2><button class="btn" onclick="openProductModal()">+ Add Product</button></div>
+      <div class="table-wrap"><table><thead><tr><th>Image</th><th>Name</th><th>Category</th><th>Status</th><th></th></tr></thead><tbody id="productsBody"></tbody></table></div>
+    </div>
+
+    <div class="panel" id="panel-categories">
+      <div class="top"><h2 style="margin:0;font-size:1.1rem">Categories</h2><button class="btn" onclick="openCategoryModal()">+ Add Category</button></div>
+      <div class="table-wrap"><table><thead><tr><th>Image</th><th>Name</th><th></th></tr></thead><tbody id="categoriesBody"></tbody></table></div>
+    </div>
+
+    <div class="panel" id="panel-settings">
+      <div class="settings-grid" id="settingsForm"></div>
+      <div class="top" style="margin-top:16px;justify-content:flex-start"><button class="btn" onclick="saveSettings()">Save Settings</button></div>
+      <div class="msg" id="settingsMsg"></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modalBg"><div class="modal" id="modalBody"></div></div>
+
+<script src="js/admin.js" defer></script>
+</body>
+</html>

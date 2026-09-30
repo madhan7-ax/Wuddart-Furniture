@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "businessName": "Wuddart Furniture",
+    "tagline": "Your Dream Space Starts with the Perfect Furniture",
+    "subtext": "Timeless teakwood furniture that blends tradition, strength, and modern living.",
+    "whatsappNumber": "919544469369",
+    "phone1": "9544469369",
+    "phone2": "9544823302",
+    "email": "wuddartfurniture@gmail.com",
+    "address": "Kannan Complex, Eswar Covil Street, Uthukuli, Tirupur – 638752, Tamil Nadu, India",
+    "googleMapsUrl": "https://www.google.com/maps/place/Wuddart+furniture/@11.1706027,77.4487932,17z/data=!4m7!3m6!1s0x3ba90f9e9d1311ef:0xfe6ebd28b1f62fb0!4b1!8m2!3d11.1706027!4d77.4513681!16s%2Fg%2F11yyhn3d92",
+    "googleMapsEmbedLat": "11.1706027",
+    "googleMapsEmbedLng": "77.4513681",
+    "instagramUrl": "https://instagram.com/wuddartfurniture",
+    "warrantyHeadline": "10 YEARS REPLACEMENT WARRANTY",
+    "warrantySubline": "LIFETIME SERVICE WARRANTY",
+    "warrantyText": "Designed for generations. Supported for life.",
+    "adminKey": "wuddart123"
+  },
+  "categories": [
+    { "id": "living-room", "name": "Living Room Furniture", "image": "/images/cat-living.jpg" },
+    { "id": "bedroom", "name": "Bedroom Furniture", "image": "/images/cat-bedroom.jpg" },
+    { "id": "storage", "name": "Storage Solutions", "image": "/images/cat-storage.jpg" },
+    { "id": "teak-windows", "name": "Teakwood Windows", "image": "/images/cat-teakwindows.jpg" },
+    { "id": "louvered-windows", "name": "Louvered Windows", "image": "/images/cat-louvered.jpg" },
+    { "id": "teak-doors", "name": "Teakwood Doors", "image": "/images/cat-teakdoors.jpg" },
+    { "id": "french-doors", "name": "French Doors", "image": "/images/cat-french.jpg" },
+    { "id": "corner-sofas", "name": "Corner Sofas", "image": "/images/cat-corner.jpg" },
+    { "id": "kitchen", "name": "Kitchen Furniture", "image": "/images/cat-kitchen.jpg" }
+  ],
+  "products": [
+    { "id": "p001", "name": "Teakwood Sofa Set with Centre Table", "category": "Living Room Furniture", "description": "Solid teakwood frame with cushioned seating.", "image": "/images/p-living3.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:00.000Z" },
+    { "id": "p002", "name": "Teakwood Lounge Seating", "category": "Living Room Furniture", "description": "Warm carved teakwood seating for the living room.", "image": "/images/p-living2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:01.000Z" },
+    { "id": "p003", "name": "Carved Teakwood Bed", "category": "Bedroom Furniture", "description": "Panelled headboard and footboard in a rich teak finish.", "image": "/images/p-bed2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:02.000Z" },
+    { "id": "p004", "name": "Storage Bed with Bedside Tables", "category": "Bedroom Furniture", "description": "Classic teakwood bed with built-in storage.", "image": "/images/p-bed4.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:03.000Z" },
+    { "id": "p005", "name": "Modern Platform Bed", "category": "Bedroom Furniture", "description": "Clean low-profile teakwood design.", "image": "/images/p-bed3.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:04.000Z" },
+    { "id": "p006", "name": "Teakwood Bedroom Wardrobe", "category": "Bedroom Furniture", "description": "Multi-door wardrobe with drawers.", "image": "/images/p-wardrobe1.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:05.000Z" },
+    { "id": "p007", "name": "Sliding Door Wardrobe", "category": "Storage Solutions", "description": "Full-height sliding wardrobe with open shelves.", "image": "/images/p-storage2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:06.000Z" },
+    { "id": "p008", "name": "Three-Door Wardrobe", "category": "Storage Solutions", "description": "Timeless wardrobe with drawers below.", "image": "/images/p-storage3.jpg", "status": "Out of Stock", "createdAt": "2026-09-28T00:00:07.000Z" },
+    { "id": "p009", "name": "Herringbone Teakwood Door", "category": "Teakwood Doors", "description": "Pattern-laid panel with a long pull handle.", "image": "/images/p-door2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:08.000Z" },
+    { "id": "p010", "name": "Panelled Main Door", "category": "Teakwood Doors", "description": "Traditional raised-panel teakwood door.", "image": "/images/p-door3.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:09.000Z" },
+    { "id": "p011", "name": "Louvered Teakwood Shutters", "category": "Teakwood Windows", "description": "Adjustable louvre shutters in teakwood.", "image": "/images/p-win1.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:10.000Z" },
+    { "id": "p012", "name": "Traditional Kerala Window", "category": "Teakwood Windows", "description": "Turned balusters and detailed frame.", "image": "/images/p-win2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:11.000Z" },
+    { "id": "p013", "name": "Glazed Teakwood French Doors", "category": "French Doors", "description": "Double doors with glass panes.", "image": "/images/p-french2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:12.000Z" },
+    { "id": "p014", "name": "L-Shaped Corner Sofa", "category": "Corner Sofas", "description": "Spacious corner seating for family living.", "image": "/images/p-corner2.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:13.000Z" },
+    { "id": "p015", "name": "U-Shaped Sectional Sofa", "category": "Corner Sofas", "description": "Generous seating with a central coffee table.", "image": "/images/p-corner3.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:14.000Z" },
+    { "id": "p016", "name": "Teakwood Kitchen Cabinets", "category": "Kitchen Furniture", "description": "Raised-panel cabinetry with glass-front units.", "image": "/images/p-kit3.jpg", "status": "Available", "createdAt": "2026-09-28T00:00:15.000Z" }
+  ]
+}
